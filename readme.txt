@@ -19,32 +19,49 @@ Events are created from a custom menu in the admin and integrated to the website
 thanks to a custom widget, located in the widget menu.
 
 Users can:
-* register for the event
-* register for the waiting list if the max registration limit has been reached
-* receive confirmation emails after successful registration for the event or
+
+* Register for the event
+* Register for the waiting list if the max registration limit has been reached
+* Receive confirmation emails after successful registration for the event or
 for the waiting list
 
 Admin can:
-* see the list of people registered for the event and for the waiting list
-* modify the max registration limit
-* cancel any registration
+
+* See the list of people registered for the event and for the waiting list
+* Modify the max registration limit
+* Cancel any registration
 
 == Installation ==
 
 1. Install ERSVP via WordPress.org plugin directory
-1. Activate the plugin
-2. Go to Events > Add New
-3. Create a new event with a title, max registrations limit (how many people can register) and date
-4. Go to Events > Settings
-5. Customize the notification emails to be sent to users upon registration for the event or for the waiting list
-6. Go to Widgets 
-7. In the Available Widgets pane, you should see a new widget called ERSVP
-8. Drag and drop this widget to one of the widget area of your theme, on the right-hand side (sometime called sidebar)
-9. Click on the down arrow of the ERSVP widget to expand it
-10. Set the title that will appear on the front-end and select the event you want
-11. Click on Save
+2. Activate the plugin
 
-== FAQ ==
+Congrats, the plugin is now active !
+
+To display a registration form in the front end, you need to:
+
+1. Create an event
+2. Setup the Event Registration Widget
+
+1. Create an event
+  * Go to the `Events` menu, then click on the `Add New` sub-menu
+  * Create a new event with a title, max registrations limit (how many people can register) and date
+2. Setup the Event Registration widget
+  * Go to Widgets menu 
+  * In the `Available Widgets` pane, you should see a new widget called `Events Registration`
+  * Drag and drop this widget to one of the widget area of your theme, on the right-hand side (sometime called sidebar)
+  * Click on the down arrow of the widget to expand it
+  * Set the title that will appear on the front-end
+  * select the event you want from the drop-down list
+  * Click on Save
+
+Congrats, you have just setup your first event !
+You just need to refresh the page where the widget area or sidebar is active, and you should see the event registration form.
+
+Optionally, you can also configure the emails sent to users upon registration for the event or for the waiting list.
+For this, go to the Events menu, then Settings sub-menu, and you will find the relevant settings.
+
+== Frequently Asked Questions ==
 
 = How to change the max registration limit? =
 
@@ -98,4 +115,4 @@ This feature has not been implemented yet, but it will be in a future release
 
 = 1.0: Apr 6, 2015 =
 
-* version !
+* First version !
