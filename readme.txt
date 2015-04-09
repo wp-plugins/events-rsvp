@@ -1,6 +1,7 @@
 === Events RSVP ===
 Author URI: http://julienklepatch.com
-Plugin URI: http://julienklepatch.com
+Plugin URI: https://github.com/jklepatch/ersvp
+Contributors: Julien Klepatch
 Tags: events, event, rsvp, organization, form
 Requires at least: 4.1
 Tested up to: 4.1
