@@ -34,14 +34,14 @@ Admin can:
 
 == Installation ==
 
-= Plugin Installation =
+**Plugin Installation**
 
 1. Install ERSVP via WordPress.org plugin directory
 2. Activate the plugin
 
 Congrats, the plugin is now active !
 
-= Configuration =
+**Configuration**
 
 To display a registration form in the front end, you need to:
 
